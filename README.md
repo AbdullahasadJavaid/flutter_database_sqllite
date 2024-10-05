@@ -1,16 +1,30 @@
-# flutter_database_sqllite
+# Flutter Database Project
 
-A new Flutter project.
+This project demonstrates how to use a **local SQLite database** in a Flutter application. The app allows users to perform **CRUD operations** (Create, Read, Update, Delete) on a simple database of items. It uses the `sqflite` package to manage the SQLite database.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add new entries to the database
+- Update existing entries
+- Delete entries
+- View all entries from the database
+- Persist data locally on the device
 
-A few resources to get you started if this is your first Flutter project:
+## Project Name
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**flutter_database_project**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+## Dependencies
+
+This project uses the following Flutter packages:
+
+- [sqflite](https://pub.dev/packages/sqflite): For SQLite database management
+- [path_provider](https://pub.dev/packages/path_provider): To help find the correct paths to store the database
+
+To install the dependencies, run the following command:
+
+```bash
+flutter pub get
+git clone [https://github.com/yourusername/flutter_database_project.git](https://github.com/AbdullahasadJavaid/flutter_database_sqllite.git)
